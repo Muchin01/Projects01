@@ -23,10 +23,10 @@ html {
 }
 
 .buttons {
-  background-color: blueviolet;
   width: 100vw;
   text-align: right;
   margin: auto;
+  margin-right: 9rem;
 }
 
 .btn-1,
@@ -34,9 +34,17 @@ html {
   margin-right: 0.5rem;
   height: 2.5rem;
   border: 1px solid #dcdacb;
-  width: 10rem;
+  width: 17rem;
+  height: 3.8rem;
   font-size: 1.4rem;
   font-weight: 700;
   line-height: 120%;
   border-radius: 4px;
+}
+.btn-1 {
+  background-color: transparent;
+}
+.btn-2 {
+  background-color: #0f7c90;
+  color: #ffff;
 }
