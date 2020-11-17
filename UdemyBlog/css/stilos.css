@@ -6,3 +6,38 @@
 html {
   font-size: 62.5%;
 }
+.header-main {
+  background-color: rgb(74, 205, 223);
+  display: flex;
+  height: 6rem;
+}
+
+.img-1 {
+  height: 3.5rem;
+}
+.img-2 {
+  height: 3rem;
+}
+.imgs {
+  width: 50vw;
+  background-color: rgb(223, 170, 170);
+}
+
+.buttons {
+  background-color: blueviolet;
+  width: 100vw;
+  text-align: right;
+  margin: auto;
+}
+
+.btn-1,
+.btn-2 {
+  margin-right: 0.5rem;
+  height: 2.5rem;
+  border: 1px solid #dcdacb;
+  width: 10rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 120%;
+  border-radius: 4px;
+}
