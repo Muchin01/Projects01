@@ -58,3 +58,20 @@ html {
   background-color: #0a5260;
   text-decoration: none;
 }
+/* @media screen and (max-width: 450px) {
+  For mobile phones:
+  .imgs {
+    width: 100%;
+    margin-left: 3rem;
+  }
+
+  .img-1,
+  .img-2 {
+    height: 4rem;
+  }
+  .buttons {
+    margin-left: 3rem;
+    width: 17.5rem;
+    height: 3.8rem;
+  }
+} */
