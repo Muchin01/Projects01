@@ -40,6 +40,7 @@ html {
   font-weight: 700;
   line-height: 120%;
   border-radius: 4px;
+  cursor: pointer;
 }
 .btn-1 {
   background-color: transparent;
@@ -47,4 +48,13 @@ html {
 .btn-2 {
   background-color: #0f7c90;
   color: #ffff;
+}
+.btn-1:hover {
+  background-color: #0f7c90;
+  color: #ffff;
+  text-decoration: none;
+}
+.btn-2:hover {
+  background-color: #0a5260;
+  text-decoration: none;
 }
