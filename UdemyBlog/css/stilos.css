@@ -58,6 +58,44 @@ html {
   background-color: #0a5260;
   text-decoration: none;
 }
+
+.barra-menu {
+  background-color: #000;
+  height: 5.7rem;
+}
+
+.menu-container,
+ul {
+  padding-top: 2.1rem;
+}
+.menu-container,
+ul a {
+  padding: 1.3rem;
+}
+
+.menu-container,
+li,
+a {
+  text-align: center;
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.menu-container,
+a:hover {
+  color: #fff;
+}
+
+.icon {
+  height: 2.5rem;
+  float: right;
+  margin-right: 9.5rem;
+  margin-left: -15rem;
+  /* margin-right: -22rem; */
+}
+
 /* @media screen and (max-width: 450px) {
   For mobile phones:
   .imgs {
