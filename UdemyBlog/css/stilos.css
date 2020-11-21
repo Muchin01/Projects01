@@ -34,7 +34,7 @@ html {
   margin-right: 0.5rem;
   height: 2.5rem;
   border: 1px solid #dcdacb;
-  width: 17rem;
+  width: 21rem;
   height: 3.8rem;
   font-size: 1.4rem;
   font-weight: 700;
@@ -63,6 +63,7 @@ html {
   background-color: #000;
   height: 5.7rem;
   width: 100%;
+  margin-bottom: -0.7rem;
 }
 
 .menu-container,
@@ -108,9 +109,6 @@ a:hover {
   font-weight: 700;
   font-size: 6rem;
   margin: -15.6rem 0 0 9.6rem;
-}
-.img-fondo {
-  margin-bottom: 10rem;
 }
 
 .container-main,
