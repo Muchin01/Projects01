@@ -151,7 +151,8 @@ a:hover {
   margin-right: 3rem;
 }
 
-.link-s {
+.link-s,
+.ref-1 {
   color: #3c3b37;
   font-weight: 700;
   font-size: 1.9rem;
@@ -160,7 +161,8 @@ a:hover {
   line-height: 1.2;
 }
 
-.link-s:hover {
+.link-s:hover,
+.ref-1:hover {
   color: #0f7c90;
   text-decoration: none;
 }
@@ -226,3 +228,69 @@ h2 {
     height: 3.8rem;
   }
 } */
+
+#wrapper {
+  width: 100%;
+  position: relative;
+}
+
+#carousel {
+  overflow: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+
+#carousel::-webkit-scrollbar {
+  height: 0;
+}
+
+#prev,
+#next {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background: white;
+  border: none;
+  padding: 8px;
+  border-radius: 50%;
+  outline: 0;
+  cursor: pointer;
+  position: absolute;
+}
+
+#prev {
+  top: 50%;
+  left: 0;
+  transform: translate(50%, -50%);
+  display: none;
+}
+
+#next {
+  top: 50%;
+  right: 0;
+  transform: translate(-50%, -50%);
+}
+
+#content {
+  display: grid;
+  grid-gap: 16px;
+  grid-auto-flow: column;
+  box-sizing: border-box;
+}
+
+.item {
+  width: 180px;
+  height: 180px;
+  background: green;
+  margin: 1.6rem;
+}
+.box-1 {
+  border-right: 1px solid #dcdacb;
+  padding: 0 24px 0 0;
+  width: 27rem;
+  height: 11rem;
+  margin: 1.2rem;
+}
+.ref-1 {
+  color: #000;
+}
