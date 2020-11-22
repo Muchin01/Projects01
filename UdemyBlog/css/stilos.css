@@ -111,8 +111,7 @@ a:hover {
   margin: -15.6rem 0 0 9.6rem;
 }
 
-.container-main,
-.container-2 {
+.container-main {
   /* background-color: blueviolet; */
   width: 100%;
   padding-left: 9.8rem;
@@ -127,9 +126,6 @@ a:hover {
 .titles {
   margin-top: 13.9rem;
   margin-bottom: 1rem;
-}
-.link-2 {
-  background-color: rebeccapurple;
 }
 
 .titles,
@@ -151,8 +147,7 @@ a:hover {
   margin-right: 3rem;
 }
 
-.link-s,
-.ref-1 {
+.link-s {
   color: #3c3b37;
   font-weight: 700;
   font-size: 1.9rem;
@@ -189,13 +184,13 @@ h2 {
   margin-bottom: -1rem;
 }
 
-.header-link {
-  background-color: rebeccapurple;
-  padding: 1.5rem;
-}
 .link-2,
 .link-1 {
   width: 50%;
+  margin-bottom: 2rem;
+}
+.links {
+  padding-right: 1.8rem;
 }
 .link-2,
 .links {
@@ -249,9 +244,11 @@ h2 {
   display: flex;
   justify-content: center;
   align-content: center;
-  background: white;
+  background: transparent;
   border: none;
   padding: 8px;
+  border: 0.1rem solid #fff;
+  box-shadow: 0 0 5px #a79e9e;
   border-radius: 50%;
   outline: 0;
   cursor: pointer;
@@ -261,36 +258,50 @@ h2 {
 #prev {
   top: 50%;
   left: 0;
-  transform: translate(50%, -50%);
+  transform: translate(0%, -50%);
   display: none;
+  margin-left: -2.5rem;
 }
 
 #next {
   top: 50%;
   right: 0;
   transform: translate(-50%, -50%);
+  margin-right: -2.5rem;
 }
 
 #content {
   display: grid;
-  grid-gap: 16px;
+  grid-gap: 3.6rem;
   grid-auto-flow: column;
-  box-sizing: border-box;
 }
 
-.item {
-  width: 180px;
-  height: 180px;
-  background: green;
-  margin: 1.6rem;
+.ref-1 {
+  color: #3c3b37;
+  font-weight: 700;
+  font-size: 1.9rem;
 }
+.title-a {
+  margin-bottom: 1rem;
+}
+
 .box-1 {
   border-right: 1px solid #dcdacb;
   padding: 0 24px 0 0;
   width: 27rem;
   height: 11rem;
-  margin: 1.2rem;
 }
-.ref-1 {
-  color: #000;
+
+.container-2 {
+  width: 100%;
+  padding-left: 9.8rem;
+  padding-right: 6rem;
+}
+
+.title-h2d {
+  margin-top: 2.8rem;
+}
+
+.title-h2 {
+  margin-top: 5rem;
 }
