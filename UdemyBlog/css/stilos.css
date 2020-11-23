@@ -264,7 +264,7 @@ h2 {
 }
 
 #carousel::-webkit-scrollbar {
-    height: 0;
+    height: 5;
 }
 
 #prev,
@@ -314,12 +314,16 @@ h2 {
     margin-bottom: 1rem;
 }
 
+.line {
+    border-top: 1px solid #dcdacb;
+}
+
 .box-1 {
     border-right: 1px solid #dcdacb;
     padding: 0 24px 0 0;
     width: 26.4rem;
     height: 11rem;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
 .container-3 {
@@ -327,7 +331,7 @@ h2 {
     padding-left: 9.8rem;
     padding-right: 7rem;
     margin-bottom: 6rem;
-    background-color: #a79e9e;
+    /* background-color: #a79e9e; */
 }
 
 .title-h2d {
