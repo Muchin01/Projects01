@@ -251,12 +251,8 @@ h2 {
   }
 } */
 
-#wrapper {
-    width: 100%;
-    position: relative;
-}
-
 #carousel {
+    display: flex;
     overflow: auto;
     scroll-behavior: smooth;
     scrollbar-width: none;
@@ -267,41 +263,13 @@ h2 {
     height: 0;
 }
 
-#prev,
-#next {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    background: transparent;
-    border: none;
-    padding: 8px;
-    border: 0.1rem solid #fff;
-    box-shadow: 0 0 5px #a79e9e;
-    border-radius: 50%;
-    outline: 0;
-    cursor: pointer;
-    position: absolute;
-}
 
-#prev {
-    top: 50%;
-    left: 0;
-    transform: translate(0%, -50%);
-    display: none;
-    margin-left: -2.5rem;
-}
-
-#next {
-    top: 50%;
-    right: 0;
-    transform: translate(-50%, -50%);
-    margin-right: -2.5rem;
-}
+/*  */
 
 #content {
-    display: grid;
+    display: flex;
     grid-gap: 3.6rem;
-    grid-auto-flow: column;
+    /* grid-auto-flow: column; */
 }
 
 .ref-1 {
@@ -312,9 +280,12 @@ h2 {
 
 .title-a {
     margin-bottom: 1rem;
+    height: 6.7rem;
 }
 
-.line {
+.line,
+footer,
+.line2-tech {
     border-top: 1px solid #dcdacb;
 }
 
@@ -352,6 +323,14 @@ h2 {
 
 .blocks-line {
     background-color: #003640;
+}
+
+.blocks-line2 {
+    background-color: #6e1a52;
+}
+
+.blocks-line,
+.blocks-line2 {
     width: 100%;
     height: 26rem;
     text-align: center;
@@ -359,16 +338,19 @@ h2 {
     padding-right: 15px;
     padding-bottom: 46px;
     padding-left: 15px;
+    margin-bottom: 7rem;
 }
 
-.blocks-line>h2 {
+.blocks-line>h2,
+.blocks-line2>h2 {
     color: #fff;
     font-size: 3.2rem;
     font-weight: 700;
     margin-bottom: 8px;
 }
 
-.blocks-line>div {
+.blocks-line>div,
+.blocks-line2>div {
     color: #fff;
     font-size: 1.9rem;
     font-family: "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -391,4 +373,39 @@ h2 {
 .btn-01:hover {
     background-color: #0A5260;
     border: 1px solid #0A5260;
+}
+
+.foot {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.btn-footer {
+    float: right;
+    margin-top: -2.4rem;
+}
+
+.container-tech,
+.container-tech,
+.line2-tech {
+    padding-left: 9.8rem;
+    padding-right: 8rem;
+    padding-bottom: 3rem;
+}
+
+.container-tech>div {
+    font-size: 1.6rem;
+}
+
+.line2-tech>ul,
+a {
+    display: block;
+    text-align: left;
+    color: red;
+    padding: 0;
+    margin: 0;
+}
+
+.link02 {
+    width: 25%;
 }
