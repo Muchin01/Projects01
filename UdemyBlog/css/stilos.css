@@ -264,7 +264,7 @@ h2 {
 }
 
 #carousel::-webkit-scrollbar {
-    height: 5;
+    height: 0;
 }
 
 #prev,
