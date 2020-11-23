@@ -101,7 +101,8 @@ a:hover {
 }
 
 .icon {
-    height: 2.5rem;
+    height: 2rem;
+    width: 2.5rem;
     float: right;
     margin-right: 9.5rem;
     margin-left: -15rem;
@@ -387,7 +388,8 @@ footer,
 
 .container-tech,
 .container-tech,
-.line2-tech {
+.line2-tech,
+.line3-tech {
     padding-left: 9.8rem;
     padding-right: 8rem;
     padding-bottom: 3rem;
@@ -397,15 +399,67 @@ footer,
     font-size: 1.6rem;
 }
 
-.line2-tech>ul,
-a {
-    display: block;
-    text-align: left;
-    color: red;
-    padding: 0;
-    margin: 0;
+.line2-tech {
+    display: flex;
 }
 
-.link02 {
-    width: 25%;
+.link02>ul>li,
+.link03>ul>li,
+.link04>ul>li,
+.link-infeior>ul>li {
+    list-style: none;
+    text-align: left;
+    text-decoration-style: none;
+    margin: 0;
+    padding-bottom: 0.5rem;
+}
+
+.link02>ul>li>a,
+.link03>ul>li>a,
+.link04>ul>li>a,
+.link-infeior>ul>li>a {
+    text-decoration: none;
+    color: #0f7c90;
+    line-height: 140%;
+    font-weight: 400;
+}
+
+.link02,
+.link03,
+.link04 {
+    width: 22.9%;
+    margin-left: -1rem;
+}
+
+.link04 {
+    padding-left: 9.6rem;
+}
+
+.link05>ul>li>a {
+    text-decoration: none;
+    color: #0f7c90;
+    line-height: 140%;
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-decoration-style: none;
+}
+
+.link05>ul>li,
+.menu-container>ul>li {
+    list-style: none;
+}
+
+.foot-inferior {
+    padding-top: 3rem;
+    margin-bottom: -4.5rem;
+}
+
+.footer-inferior,
+img {
+    width: 13.8rem;
+    height: 4rem;
+}
+
+.l02 {
+    display: flex;
 }
