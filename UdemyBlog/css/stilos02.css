@@ -172,10 +172,14 @@ html {
     padding: 1.5rem 0;
 }
 
-.profile-content,
-main {
+.profile-content {
     box-sizing: border-box;
     margin: -1.5rem 27rem;
+}
+
+.main {
+    box-sizing: border-box;
+    padding: 2rem 30rem;
 }
 
 .profile-content {
@@ -235,5 +239,147 @@ main {
 .box-2 {
     padding: 1.5rem 1rem 2rem 23.5rem;
     float: right;
+    display: flex;
+}
+
+.text-letter>p {
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 1.6rem;
+    color: #3c3b37;
+    margin-bottom: 1.5rem;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.box-mid {
+    background-color: teal;
+    height: 4rem;
+    width: 100%;
+}
+
+
+/* footer  
+dssssssssssssssss
+footer*/
+
+.line,
+footer,
+.line2-tech {
+    border-top: 1px solid #dcdacb;
+}
+
+.btn-01 {
+    height: 2.5rem;
+    border: 1px solid #0f7c90;
+    width: 16rem;
+    height: 4.5rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 120%;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #0f7c90;
+    color: #fff;
+}
+
+.btn-01:hover {
+    background-color: #0A5260;
+    border: 1px solid #0A5260;
+}
+
+.foot {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.btn-footer {
+    float: right;
+    margin-top: -2.4rem;
+}
+
+.container-tech,
+.container-tech,
+.line2-tech,
+.line3-tech {
+    padding-left: 9.8rem;
+    padding-right: 8rem;
+    padding-bottom: 3rem;
+}
+
+.container-tech>div {
+    font-size: 1.6rem;
+}
+
+.container-tech>h3 {
+    font-weight: 700;
+    font-size: 1.9rem;
+}
+
+.line2-tech {
+    display: flex;
+    padding-top: 2.9rem;
+}
+
+.link02>ul>li,
+.link03>ul>li,
+.link04>ul>li,
+.link-infeior>ul>li {
+    list-style: none;
+    text-align: left;
+    text-decoration-style: none;
+    margin: 0;
+    padding-bottom: 0.5rem;
+}
+
+.link02>ul>li>a,
+.link03>ul>li>a,
+.link04>ul>li>a,
+.link-infeior>ul>li>a {
+    text-decoration: none;
+    color: #0f7c90;
+    line-height: 140%;
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+.link02,
+.link03,
+.link04 {
+    width: 22.9%;
+    margin-left: -1rem;
+}
+
+.link04 {
+    padding-left: 9.6rem;
+}
+
+.link05>ul>li>a {
+    text-decoration: none;
+    color: #73726c;
+    font-size: 1.2rem;
+}
+
+.link05 {
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+}
+
+.link05>ul>li,
+.menu-container>ul>li {
+    list-style: none;
+}
+
+.foot-inferior {
+    padding-top: 3rem;
+    margin-bottom: -4.5rem;
+}
+
+.copy>img {
+    width: 13.8rem;
+    height: 4rem;
+}
+
+.copy {
     display: flex;
 }
