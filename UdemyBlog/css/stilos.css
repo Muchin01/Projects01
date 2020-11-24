@@ -86,8 +86,11 @@ ul a {
 }
 
 .menu-container,
+ul,
 li,
 a {
+    list-style: none;
+    text-decoration: none;
     text-align: center;
     color: #fff;
     font-size: 1.4rem;
