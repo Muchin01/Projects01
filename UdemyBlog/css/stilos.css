@@ -8,6 +8,10 @@ html {
     font-size: 62.5%;
 }
 
+.ng {
+    border-radius: 70px;
+}
+
 .header-main {
     display: flex;
     height: 7.5rem;
